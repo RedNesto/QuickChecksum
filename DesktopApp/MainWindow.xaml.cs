@@ -10,7 +10,7 @@ using DataFormats = System.Windows.DataFormats;
 using DragDropEffects = System.Windows.DragDropEffects;
 using DragEventArgs = System.Windows.DragEventArgs;
 
-namespace QuickChecksum
+namespace QuickChecksum.DesktopApp
 {
     public partial class MainWindow
     {

@@ -1,0 +1,11 @@
+/*
+
+!/Properties/
+
+!/.gitignore
+
+!/App.config
+
+!/*.cs
+!/*.xaml
+!/DesktopApp.csproj

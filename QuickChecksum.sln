@@ -1,10 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickChecksum", "QuickChecksum\QuickChecksum.csproj", "{624DF885-BC35-4529-8ABE-3A4D699AC306}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopApp", "DesktopApp\DesktopApp.csproj", "{624DF885-BC35-4529-8ABE-3A4D699AC306}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{E4EC1FA4-7526-4B05-8FD0-583E219595A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{50CA7D23-B75C-4C79-B7EC-B5936BB2EF34}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "QuickChecksum", "QuickChecksum\QuickChecksum.shproj", "{37852484-B5B9-4FEC-AD18-E726081EF8E3}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		QuickChecksum\QuickChecksum.projitems*{37852484-b5b9-4fec-ad18-e726081ef8e3}*SharedItemsImports = 13
+		QuickChecksum\QuickChecksum.projitems*{50ca7d23-b75c-4c79-b7ec-b5936bb2ef34}*SharedItemsImports = 4
+		QuickChecksum\QuickChecksum.projitems*{624df885-bc35-4529-8abe-3a4d699ac306}*SharedItemsImports = 4
+		QuickChecksum\QuickChecksum.projitems*{e4ec1fa4-7526-4b05-8fd0-583e219595a3}*SharedItemsImports = 4
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -18,5 +28,15 @@ Global
 		{E4EC1FA4-7526-4B05-8FD0-583E219595A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4EC1FA4-7526-4B05-8FD0-583E219595A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4EC1FA4-7526-4B05-8FD0-583E219595A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50CA7D23-B75C-4C79-B7EC-B5936BB2EF34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50CA7D23-B75C-4C79-B7EC-B5936BB2EF34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50CA7D23-B75C-4C79-B7EC-B5936BB2EF34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50CA7D23-B75C-4C79-B7EC-B5936BB2EF34}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49DEBB75-9DD7-41FE-A7CF-DFF76D58ECAD}
 	EndGlobalSection
 EndGlobal

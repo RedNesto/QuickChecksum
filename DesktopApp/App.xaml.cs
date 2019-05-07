@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace QuickChecksum
+namespace QuickChecksum.DesktopApp
 {
     public partial class App
     {

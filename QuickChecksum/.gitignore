@@ -1,11 +1,7 @@
 /*
 
-!/Properties/
-
 !/.gitignore
 
-!/App.config
-
 !/*.cs
-!/*.xaml
-!/QuickChecksum.csproj
+!/QuickChecksum.projitems
+!/QuickChecksum.shproj
