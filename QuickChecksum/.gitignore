@@ -8,4 +8,4 @@
 
 !/*.cs
 !/*.xaml
-!/*.csproj
+!/QuickChecksum.csproj

@@ -107,6 +107,8 @@ namespace QuickChecksum
             ExpectedHashTextBox.TextChanged += (eSender, args) => RefreshCheckButtonState();
             AlgorithmCombobox.SelectionChanged += (eSender, args) => RefreshCheckButtonState();
             ComputedHashTextBox.TextChanged += (eSender, args) => CopyComputedHashButton.IsEnabled = !string.IsNullOrEmpty(ComputedHashTextBox.Text);
+
+            FilePathTextBox.Text = App.StartupArgFile;
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
