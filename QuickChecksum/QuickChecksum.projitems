@@ -11,6 +11,7 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)ChecksumAlgorithm.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ChecksumChecker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CommandLineHelper.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)HexConvert.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IChecksumComputer.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SimpleChecksumComputer.cs" />
